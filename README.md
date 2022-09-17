@@ -17,7 +17,9 @@ You can run it on Linux as well as on Windows using the command given below. Don
 To use <i>vs_analysis.py</i> script, run the following command:
 
 ```$ python vs_analysis.py``` 
+
 OR
+
 ```$ python3 vs_analysis.py```
 
 
@@ -27,7 +29,9 @@ Since it is an interactive script, it will prompt user during its execution.
 To use <i>vs_analysis_compound.py</i> script, run the following command:
 
 ```$ python vs_analysis_compound.py <compound-name>``` 
+
 OR
+
 ```$ python3 vs_analysis_compound.py <compound-name>```
 
 ***For example,***
