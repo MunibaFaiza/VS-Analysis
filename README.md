@@ -6,11 +6,11 @@
 
 <i>vs_analysis.py</i> script provides top poses amongst the screened compounds with the lowest binding affinity.
 It parses all log files present in a directory and then fetches the desired (user input) number of compounds with the binding affinity of the top pose given in the log file. 
-This script also allows users to get binding affinities of compounds based on a user inputted cutoff value. The user can provide a threshold for binding affinities above which all affinities present in the files will be provided in an output file.
-The output file consists of filename and corresponding binding affinity sorted in ascending order.
+This script also allows users to get binding affinities of compounds based on a user-inputted cutoff value. The user can provide a threshold for binding affinities above which all affinities present in the files will be provided in an output file.
+The output file consists of a filename and corresponding binding affinity sorted in ascending order.
 You can run it on Linux as well as on Windows using the command given below. Don't forget to provide the full path to this file, if it is saved in another directory.
 
-<i>vs_analysis_compoun.py</i> script allows users to search for specific binding affinities corresponding to compound names. Users have to provide a compound name as an argument given that the same compound name is present in the log filenames.
+<i>vs_analysis_compound.py</i> script allows users to search for specific binding affinities corresponding to compound names. Users have to provide a compound name as an argument given that the same compound name is present in the log filenames.
 
 ### Usage:
 
@@ -23,7 +23,7 @@ OR
 ```$ python3 vs_analysis.py```
 
 
-Since it is an interactive script, it will prompt user during its execution.
+Since it is an interactive script, it will prompt the user during its execution.
 
 
 To use <i>vs_analysis_compound.py</i> script, run the following command:
