@@ -47,6 +47,14 @@ It is recommended to name your log files along with the name of a compound. That
 
 
 For more information on this script, please visit the following links:
-https://bioinformaticsreview.com/20210509/vs-analysis-a-python-script-to-analyze-virtual-screening-results-of-autodock-vina/
-https://bioinformaticsreview.com/20220329/how-to-sort-binding-affinities-based-on-a-cutoff-using-vs_analysis-py-script/
+* https://bioinformaticsreview.com/20210509/vs-analysis-a-python-script-to-analyze-virtual-screening-results-of-autodock-vina/
+
+* https://bioinformaticsreview.com/20220329/how-to-sort-binding-affinities-based-on-a-cutoff-using-vs_analysis-py-script/
+
+* https://bioinformaticsreview.com/20240110/vs_interaction_analysis-py-python-script-to-perform-post-virtual-screening-analysis/
+
+## How to Cite:
+Please cite the following article:
+Faiza, M., 2024. VS_Analysis: A Python package to perform post-virtual screening analysis, 10(1): page 8-12. The article is available at https://bioinformaticsreview.com/20240110/vs_analysis-a-python-package-to-perform-post-virtual-screening-analysis/
+
 
