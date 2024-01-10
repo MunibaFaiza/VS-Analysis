@@ -1,6 +1,9 @@
-# Author: Dr. Muniba Faiza
-# Copyright Muniba Faiza 2022
-# License GPL-2.0
+'''
+Author: Dr. Muniba Faiza
+Copyright Muniba Faiza 2022
+License GPL-2.0
+
+'''
 
 
 #!/usr/bin/env python3
