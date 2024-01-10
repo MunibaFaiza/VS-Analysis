@@ -117,7 +117,7 @@ def res_around_ligand(protein_file, ligand_file, pose_name, vina_output_file):
         # Select the current pose
         cmd.frame(int(pose.split('_')[-1]))
 
-        # Select atoms around 3.2 angstroms from vina output file. You can change the distance in the following command.
+        # Select atoms around 3.2 angstroms from the Vina output file. You can change the distance in the following command.
         cmd.select("contacts", f"'{vina_output_file}' around 3.2")
 
         # Select contactsfull by residues
@@ -179,7 +179,7 @@ for vinaoutfile in file_list:
         # Get the names of poses
         title = cmd.get_names()
 
-        pose_names = title[2:]              # we only need the split poses names (excluding the protein & ligand name from the list (i.e., title))
+        pose_names = title[2:]              # we only need the names of the split poses (excluding the protein & ligand name from the list (i.e., title))
 
         # Call the function to calculate the H-bonds and their distances.
         calculate_hbonds(pose_names, vinaoutfile)
