@@ -1,5 +1,9 @@
-# Author: Dr. Muniba Faiza
-# Copyright Muniba Faiza 2021
+'''
+Author: Dr. Muniba Faiza
+Copyright Muniba Faiza 2021
+License GPL-2.0
+
+'''
 
 
 
