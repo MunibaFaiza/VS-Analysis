@@ -12,6 +12,8 @@ You can run it on Linux as well as on Windows using the command given below. Don
 
 <i>vs_analysis_compounds.py</i> script allows users to search for specific binding affinities corresponding to compound names. Users have to provide a compound name as an argument given that the same compound name is present in the log filenames.
 
+<i>vs_interaction_analysis.py</i> script helps in the post-virtual screening analysis including the calculation of number of polar hydrogen bonds and their distances. It also lists the amino acid residues present within the ligand affinity based on a specified distance (default is 3.2 Angstroms).
+
 ### Usage:
 
 To use <i>vs_analysis.py</i> script, run the following command:
