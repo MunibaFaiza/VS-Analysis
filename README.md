@@ -10,9 +10,18 @@ This script also allows users to get binding affinities of compounds based on a 
 The output file consists of a filename and corresponding binding affinity sorted in ascending order.
 You can run it on Linux as well as on Windows using the command given below. Don't forget to provide the full path to this file, if it is saved in another directory.
 
-<i>vs_analysis_compounds.py</i> script allows users to search for specific binding affinities corresponding to compound names. Users have to provide a compound name as an argument given that the same compound name is present in the log filenames.
+This package allows you to:
 
-<i>vs_interaction_analysis.py</i> script helps in the post-virtual screening analysis including the calculation of number of polar hydrogen bonds and their distances. It also lists the amino acid residues present within the ligand affinity based on a specified distance (default is 3.2 Angstroms).
+* Find the binding affinities of a selected number of docked compounds,
+* sort the binding affinities based on a binding affinity cut-off value (provided by the user) of a selected number of compounds,
+* find the specific binding affinity of a docked compound,
+* calculate the number of polar hydrogen bonds between the protein and the docked compounds including all poses,
+* calculate the distances of these hydrogen bonds, and
+* list the names of amino acid residues that are present near the ligand within a specified distance (default distance is 3.2 Angstroms).
+
+<i>vs_analysis_compounds.py</i> script allows users to search for specific binding affinities corresponding to compound names. Users must provide a compound name as an argument given that the same compound name is present in the log filenames.
+
+<i>vs_interaction_analysis.py</i> script helps in the post-virtual screening analysis, including calculating the number of polar hydrogen bonds and their distances. It also lists the amino acid residues within the ligand affinity based on a specified distance (default is 3.2 Angstroms).
 
 ### Usage:
 
