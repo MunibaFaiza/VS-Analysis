@@ -64,6 +64,6 @@ For more information on this script, please visit the following links:
 
 ## How to Cite:
 Please cite the following article:
-Faiza, M., 2024. VS_Analysis: A Python package to perform post-virtual screening analysis, 10(1): page 8-12. The article is available at https://bioinformaticsreview.com/20240110/vs_analysis-a-python-package-to-perform-post-virtual-screening-analysis/
+Faiza, M., 2024. VS_Analysis: A Python package to perform post-virtual screening analysis,2024, 10(1): page 8-12. The article is available at https://bioinformaticsreview.com/20240110/vs_analysis-a-python-package-to-perform-post-virtual-screening-analysis/
 
 
