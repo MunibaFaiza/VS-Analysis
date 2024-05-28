@@ -57,19 +57,19 @@ def cite_info():
 
 	cite_info= """
 
-    ##############################################################
-    # How to cite:                                               #
-    # Faiza M., (2024). vs_interaction_analysis.py: Python script#
-    # to perform post-virtual screening analysis. 10(1):page 4-8.#
-    # The article is available at                                #
-    # https://bioinformaticsreview.com/20240110/vs_interaction_  #
-    # analysis-py-python-script-to-perform-post-virtual-screening#
-    # -analysis/                                                 #
-    # Faiza, M., (2024). VS_Analysis: A Python package to perform#
-    # post-virtual screening analysis, 10(1): page 8-12.         #
-    # https://bioinformaticsreview.com/20240110/vs_analysis-a-   #
-    # python-package-to-perform-post-virtual-screening-analysis/ #
-    ##############################################################
+    ###############################################################
+    # How to cite:                                                #
+    # Faiza M., (2024). vs_interaction_analysis.py: Python script #
+    # to perform post-virtual screening analysis. 10(1):page 4-8. #
+    # The article is available at                                 #
+    # https://bioinformaticsreview.com/20240110/vs_interaction_   #
+    # analysis-py-python-script-to-perform-post-virtual-screening #
+    # -analysis/                                                  #
+    # Faiza, M., (2024). VS_Analysis: A Python package to perform #
+    # post-virtual screening analysis, 10(1): page 8-12.          #
+    # https://bioinformaticsreview.com/20240110/vs_analysis-a-    #
+    # python-package-to-perform-post-virtual-screening-analysis/  #
+    ###############################################################
 
 """
 	print(cite_info)
