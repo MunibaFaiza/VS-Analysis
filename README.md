@@ -17,18 +17,6 @@ This package allows you to:
 * identify whether a ligand is binding within a binding pocket or around a reference ligand in the protein or somewhere else. 
 
 
-<i>vs_analysis.py</i> script provides top poses amongst the screened compounds with the lowest binding affinity.
-It parses all log files present in a directory and then fetches the desired (user input) number of compounds with the binding affinity of the top pose given in the log file. 
-This script also allows users to get binding affinities of compounds based on a user-inputted cutoff value. The user can provide a threshold for binding affinities above which all affinities present in the files will be provided in an output file.
-The output file consists of a filename and corresponding binding affinity sorted in ascending order.
-You can run it on Linux as well as on Windows using the command given below. Don't forget to provide the full path to this file, if it is saved in another directory.
-
-<i>vs_analysis_compounds.py</i> script allows users to search for specific binding affinities corresponding to compound names. Users must provide a compound name as an argument given that the same compound name is present in the log filenames.
-
-<i>vs_interaction_analysis.py</i> script helps in the post-virtual screening analysis, including calculating the number of polar hydrogen bonds and their distances. It also lists the amino acid residues within the ligand affinity based on a specified distance (default is 3.2 Angstroms).
-
-<i>DockingAnalyzer.py</i> script allows you to to process a large number of docking output files, calculating the center of mass (COM) for each ligand pose and comparing it to the COM of a reference ligand to determine proximity. Ligands that are near the reference ligand's COM are flagged.
-
 ### Usage:
 
 To use <i>vs_analysis.py</i> script, run the following command:
@@ -59,31 +47,5 @@ Remember to enter a valid number, i.e., the number you enter must be less than o
 ***NOTE:
 This script screens for the log files containing the word 'log' in their filenames.
 It is recommended to name your log files along with the name of a compound. That would make the results more presentable and easy to understand.***
-
-
-For more information on this script, please visit the following links:
-* https://bioinformaticsreview.com/20210509/vs-analysis-a-python-script-to-analyze-virtual-screening-results-of-autodock-vina/
-
-* https://bioinformaticsreview.com/20220329/how-to-sort-binding-affinities-based-on-a-cutoff-using-vs_analysis-py-script/
-
-* https://bioinformaticsreview.com/20240110/vs_interaction_analysis-py-python-script-to-perform-post-virtual-screening-analysis/
-
-* https://bioinformaticsreview.com/20240110/vs_analysis-a-python-package-to-perform-post-virtual-screening-analysis/
-
-* https://bioinformaticsreview.com/20240110/vs_analysis-a-python-package-to-perform-post-virtual-screening-analysis/
-
-## How to Cite:
-Please cite the following article and the scripts that you have used:
-
-Faiza, M., (2024). VS_Analysis: A Python package to perform post-virtual screening analysis,2024, 10(1): page 8-12. The article is available at https://bioinformaticsreview.com/20240110/vs_analysis-a-python-package-to-perform-post-virtual-screening-analysis/
-
-Faiza M., (2021). vs_Analysis.py: A Python Script to Analyze Virtual Screening Results of Autodock Vina 8(5):page 12-16. The article is available at https://bioinformaticsreview.com/20210509/vs-analysis-a-python-script-to-analyze-virtual-screening-results-of-autodock-vina/
-
-Faiza M., (2022). vs_analysis_compound.py: Python script to search for binding affinities based on compound names. 8(9):page 8-12 The article is available at https://bioinformaticsreview.com/20220917/vs_analysis_compound-py-python-script-to-search-for-binding-affinities-based-on-compound-names/
-
-Faiza M., (2024). vs_interaction_analysis.py: Python script to perform post-virtual screening analysis. 10(1):page 4-8. The article is available at https://bioinformaticsreview.com/20240110/vs_interaction_analysis-py-python-script-to-perform-post-virtual-screening-analysis/
-
-Faiza, M., (2024). dockinganalyzer-py: a-new-python-script-to-identify-ligand-binding-in-protein-pockets, 10(5): page 12-16. https://bioinformaticsreview.com/20240110/vs_analysis-a-python-package-to-perform-post-virtual-screening-analysis/
-
 
 
