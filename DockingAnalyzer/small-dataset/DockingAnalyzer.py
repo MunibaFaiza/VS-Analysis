@@ -70,20 +70,22 @@ def cite_info():
 
 	cite_info= """
 
-    ################################################################
-    # How to cite:                                                 #
-    #                                                              #
-    # 1. Faiza, M., (2024). dockinganalyzer-py: a-new-python-      #
-    # script-to-identify-ligand-binding-in-protein-pockets,        #
-    # 10(5): page 12-16. https://bioinformaticsreview.com/20240110 #
-    # /vs_analysis-a-python-package-to-perform-post-virtual-       #
-    # screening-analysis/                                          #
-    #                                                              #
-    # 2. Faiza, M., (2024). VS_Analysis: A Python package to       #
-    # perform post-virtual screening analysis, 10(1): page 8-12.   #
-    # https://bioinformaticsreview.com/20240110/vs_analysis-a-     #
-    # python-package-to-perform-post-virtual-screening-analysis/   #
-    ################################################################
+    ##############################################################
+    # How to cite:                                               #
+    #                                                            #
+    # 1. Faiza, M., (2024). dockinganalyzer-py: a-new-python-    #
+    # script-to-identify-ligand-binding-in-protein-pockets,      #
+    # 10(5): page 12-16.                                         #
+    # https://bioinformaticsreview.com/20240110/vs_analysis-a-   #
+    # python-package-to-perform-post-virtual-screening-analysis/ #
+    #                                                            #
+    # 2. Faiza, M., (2024). VS_Analysis: A Python package to     #
+    # perform post-virtual screening analysis, 10(1): page 8-12. #
+    # https://bioinformaticsreview.com/20240110/vs_analysis-a-   #
+    # python-package-to-perform-post-virtual-screening-analysis/ #
+    ##############################################################
+
+
 
 
 """
