@@ -5,6 +5,14 @@ License GPL-2.0
 
 '''
 
+'''
+This Python script identifies top poses with the lowest binding affnities from the Vina output log files in a directory.
+
+USAGE:
+
+python3 vs_analysis.py
+
+'''
 
 
 #!/usr/bin/env python3
@@ -17,6 +25,70 @@ import collections
 import pprint
 import sys
 
+
+def display_info():
+    banner = """
+    
+        ============================================================
+
+        
+        \ \ / // __| ___   /_\   _ _   __ _ | | _  _  ___(_) ___
+         \ V / \__ \|___| / _ \ | ' \ / _` || || || |(_-<| |(_-<
+          \_/  |___/     /_/ \_\|_||_|\__,_||_| \_, |/__/|_|/__/
+                                                |__/                    
+
+           Python package for Virtual Screening Result Analysis
+"""
+    info = """
+        ##############################################################
+		#                                                            #
+		#                    vs_analysis.py                          #
+		#                                                            #
+		##############################################################
+		# This script identifies top poses with the lowest binding   #
+		# affinities from log files in a directory. It retrieves a   #
+		# user-specified number of compounds based on their top pose #
+		# binding affinities. Additionally, users can set a binding  #
+		# affinity threshold to filter and list compounds exceeding  #
+		# this value. The output file includes filenames and their   #
+		# corresponding binding affinities, sorted in ascending      #
+		# order.                                                     #
+		#                                                            #
+		# Author: Dr. Muniba Faiza                                   #
+		# Bioinformatics Review                                      #
+		#                                                            #
+		##############################################################
+
+    """
+    print(banner)
+    print(info)
+
+
+def cite_info():
+
+	cite_info= """
+
+    ##############################################################
+    # HOW TO CITE:                                               #
+    #                                                            #
+    # 1. Faiza M., (2021). vs_Analysis.py: A Python Script to    #
+    # Analyze Virtual Screening Results of Autodock Vina 8(5):   #
+    # page 12-16. The article is available at                    #
+    # https://bioinformaticsreview.com/20210509/vs-analysis-a-   #
+    # python-script-to-analyze-virtual-screening-results-of-     #
+    # autodock-vina/                                             #
+    #                                                            #
+    # 2. Faiza, M., (2024). VS_Analysis: A Python package to       #
+    # perform post-virtual screening analysis, 10(1): page 8-12. #
+    # https://bioinformaticsreview.com/20240110/vs_analysis-a-   #
+    # python-package-to-perform-post-virtual-screening-analysis/ #
+    ##############################################################
+
+"""
+	print(cite_info)
+	
+
+display_info()
 
 #get path of current dir
 
@@ -117,3 +189,4 @@ with open("output.txt", "w") as f:
 
 print ("Done! The result is provided in the 'output.txt' file.")
 				
+cite_info()

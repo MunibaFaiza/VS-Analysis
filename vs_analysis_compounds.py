@@ -5,6 +5,10 @@ License GPL-2.0
 
 '''
 
+'''
+This script allows users to search for specific binding affinities corresponding to compound names.
+
+'''
 
 #!/usr/bin/env python3
 
@@ -16,6 +20,66 @@ import collections
 import pprint
 import sys
 import fnmatch
+
+
+def display_info():
+    banner = """
+    
+        ============================================================
+
+        
+        \ \ / // __| ___   /_\   _ _   __ _ | | _  _  ___(_) ___
+         \ V / \__ \|___| / _ \ | ' \ / _` || || || |(_-<| |(_-<
+          \_/  |___/     /_/ \_\|_||_|\__,_||_| \_, |/__/|_|/__/
+                                                |__/                    
+
+           Python package for Virtual Screening Result Analysis
+"""
+    info = """
+        ##############################################################
+		#                                                            #
+		#                 vs_analysis_compounsd.py                   #
+		#                                                            #
+		##############################################################
+		#                                                            #
+		# This script allows users to search for specific binding    #
+		# affinities corresponding to compound names. Users must     #
+		# provide a compound name as an argument given that the      #
+		# same compound name is present in the log filenames.        #
+		#                                                            #
+		##############################################################
+
+
+    """
+    print(banner)
+    print(info)
+
+
+def cite_info():
+
+	cite_info= """
+
+    ##############################################################
+    # HOW TO CITE:                                               #
+    #                                                            #
+    # 1. Faiza M., (2022). vs_analysis_compound.py: Python       #
+    # script to search for binding affinities based on compound  #
+    # names. 8(9):page 8-12. The article is available at         #
+    # https://bioinformaticsreview.com/20220917/vs_analysis_     #
+    # compound-py-python-script-to-search-for-binding-affinities #
+    # -based-on-compound-names/                                  #
+    #                                                            #
+    # 2. Faiza, M., (2024). VS_Analysis: A Python package to       #
+    # perform post-virtual screening analysis, 10(1): page 8-12. #
+    # https://bioinformaticsreview.com/20240110/vs_analysis-a-   #
+    # python-package-to-perform-post-virtual-screening-analysis/ #
+    ##############################################################
+
+"""
+	print(cite_info)
+	
+
+display_info()
 
 
 #get path of current dir
@@ -59,3 +123,5 @@ for file_name in file_list:
 					continue
 
 print("The Binding Affinity of "+comp_name+" is : "+value+"\n")
+
+cite_info()

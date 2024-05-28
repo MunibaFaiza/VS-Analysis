@@ -19,6 +19,64 @@ from pymol import cmd, stored
 import re
 from get_raw_distances import get_raw_distances
 
+
+def display_info():
+    banner = """
+    
+        ============================================================
+
+        
+        \ \ / // __| ___   /_\   _ _   __ _ | | _  _  ___(_) ___
+         \ V / \__ \|___| / _ \ | ' \ / _` || || || |(_-<| |(_-<
+          \_/  |___/     /_/ \_\|_||_|\__,_||_| \_, |/__/|_|/__/
+                                                |__/                    
+
+           Python package for Virtual Screening Result Analysis
+"""
+    info = """
+        ##############################################################
+		#                                                            #
+		#                 vs_analysis_compounsd.py                   #
+		#                                                            #
+		##############################################################
+		#                                                            #
+		# This script allows users to search for specific binding    #
+		# affinities corresponding to compound names. Users must     #
+		# provide a compound name as an argument given that the      #
+		# same compound name is present in the log filenames.        #
+		#                                                            #
+		##############################################################
+
+
+    """
+    print(banner)
+    print(info)
+
+
+def cite_info():
+
+	cite_info= """
+
+    ##############################################################
+    # How to cite:                                               #
+    # Faiza M., (2024). vs_interaction_analysis.py: Python script#
+    # to perform post-virtual screening analysis. 10(1):page 4-8.#
+    # The article is available at                                #
+    # https://bioinformaticsreview.com/20240110/vs_interaction_  #
+    # analysis-py-python-script-to-perform-post-virtual-screening#
+    # -analysis/                                                 #
+    # Faiza, M., (2024). VS_Analysis: A Python package to perform#
+    # post-virtual screening analysis, 10(1): page 8-12.         #
+    # https://bioinformaticsreview.com/20240110/vs_analysis-a-   #
+    # python-package-to-perform-post-virtual-screening-analysis/ #
+    ##############################################################
+
+"""
+	print(cite_info)
+     
+    
+display_info()
+
 #get path of current dir
 
 mypath = os.path.abspath(os.getcwd())
@@ -179,7 +237,7 @@ for vinaoutfile in file_list:
         # Get the names of poses
         title = cmd.get_names()
 
-        pose_names = title[2:]              # we only need the names of the split poses (excluding the protein & ligand name from the list (i.e., title))
+        pose_names = title[2:]              # excluding the protein & ligand name from the list (i.e., title)
 
         # Call the function to calculate the H-bonds and their distances.
         calculate_hbonds(pose_names, vinaoutfile)
@@ -191,3 +249,5 @@ for vinaoutfile in file_list:
 
 # Close the file when done writing
 outfile.close()
+
+cite_info()
