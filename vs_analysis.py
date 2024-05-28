@@ -78,7 +78,7 @@ def cite_info():
     # python-script-to-analyze-virtual-screening-results-of-     #
     # autodock-vina/                                             #
     #                                                            #
-    # 2. Faiza, M., (2024). VS_Analysis: A Python package to       #
+    # 2. Faiza, M., (2024). VS_Analysis: A Python package to     #
     # perform post-virtual screening analysis, 10(1): page 8-12. #
     # https://bioinformaticsreview.com/20240110/vs_analysis-a-   #
     # python-package-to-perform-post-virtual-screening-analysis/ #
