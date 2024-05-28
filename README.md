@@ -2,9 +2,7 @@
 
 ## Python package for Virtual Screening Results Analysis
 
-### Introduction
-
-#### VS-Analysis Python package- A powerful toolkit designed to streamline the analysis of virtual screening results.
+### VS-Analysis Python package- A powerful toolkit designed to streamline the analysis of virtual screening results.
 
 This package allows you to:
 
