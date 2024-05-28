@@ -1,0 +1,53 @@
+Reference Ligand COM: [24.389, 25.044, 48.718]
+
+
+Ligand name	Pose name	COM	Difference COM	Is near Reference Ligand?
+
+vina_out_dlan	pose_0001	[21.519, 27.144, 28.429]	20.598	No
+vina_out_dlan	pose_0002	[22.676, 23.74, 48.273]	2.198	Yes
+vina_out_dlan	pose_0003	[26.497, 38.244, 50.601]	13.499	No
+vina_out_dlan	pose_0004	[24.542, 38.634, 49.84]	13.637	No
+vina_out_dlan	pose_0005	[20.219, 24.083, 49.685]	4.387	No
+vina_out_dlan	pose_0006	[22.444, 39.805, 48.815]	14.889	No
+vina_out_dlan	pose_0007	[24.332, 24.604, 48.918]	0.486	Yes
+vina_out_dlan	pose_0008	[23.437, 37.602, 50.118]	12.672	No
+vina_out_dlan	pose_0009	[22.708, 38.707, 49.402]	13.783	No
+
+----------------------------------------
+
+vina_out_lca	pose_0001	[24.389, 25.044, 48.718]	0.0	Yes
+vina_out_lca	pose_0002	[24.226, 38.583, 48.713]	13.54	No
+vina_out_lca	pose_0003	[19.915, 26.591, 30.154]	19.158	No
+vina_out_lca	pose_0004	[23.494, 24.922, 47.845]	1.257	Yes
+vina_out_lca	pose_0005	[22.991, 27.18, 49.74]	2.75	Yes
+vina_out_lca	pose_0006	[22.213, 26.027, 48.141]	2.457	Yes
+vina_out_lca	pose_0007	[20.122, 28.098, 29.953]	19.485	No
+vina_out_lca	pose_0008	[24.453, 38.007, 49.62]	12.994	No
+vina_out_lca	pose_0009	[24.226, 38.735, 49.633]	13.723	No
+
+----------------------------------------
+
+vina_out_benzo	pose_0001	[20.271, 5.158, 26.66]	29.983	No
+vina_out_benzo	pose_0002	[20.344, 5.138, 27.561]	29.33	No
+vina_out_benzo	pose_0003	[19.824, 3.519, 31.674]	27.833	No
+vina_out_benzo	pose_0004	[20.654, 5.748, 25.295]	30.577	No
+vina_out_benzo	pose_0005	[19.684, 3.365, 31.319]	28.193	No
+vina_out_benzo	pose_0006	[21.185, 4.932, 29.138]	28.251	No
+vina_out_benzo	pose_0007	[20.954, 5.867, 27.865]	28.538	No
+vina_out_benzo	pose_0008	[20.922, 6.008, 25.416]	30.288	No
+vina_out_benzo	pose_0009	[20.89, 5.126, 29.817]	27.68	No
+
+----------------------------------------
+
+vina_out_naph	pose_0001	[21.734, 24.276, 46.566]	3.503	Yes
+vina_out_naph	pose_0002	[21.971, 24.77, 46.611]	3.219	Yes
+vina_out_naph	pose_0003	[24.56, 45.519, 30.122]	27.659	No
+vina_out_naph	pose_0004	[21.53, 25.281, 47.09]	3.299	Yes
+vina_out_naph	pose_0005	[21.068, 24.316, 46.693]	3.957	Yes
+vina_out_naph	pose_0006	[21.512, 25.717, 47.789]	3.097	Yes
+vina_out_naph	pose_0007	[20.407, 23.709, 46.472]	4.762	No
+vina_out_naph	pose_0008	[21.233, 23.923, 46.78]	3.87	Yes
+vina_out_naph	pose_0009	[21.895, 24.815, 46.792]	3.16	Yes
+
+----------------------------------------
+

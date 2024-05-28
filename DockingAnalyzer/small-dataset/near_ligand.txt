@@ -1,0 +1,13 @@
+vina_out_dlan	pose_0002	2.198
+vina_out_dlan	pose_0007	0.486
+vina_out_lca	pose_0001	0.0
+vina_out_lca	pose_0004	1.257
+vina_out_lca	pose_0005	2.75
+vina_out_lca	pose_0006	2.457
+vina_out_naph	pose_0001	3.503
+vina_out_naph	pose_0002	3.219
+vina_out_naph	pose_0004	3.299
+vina_out_naph	pose_0005	3.957
+vina_out_naph	pose_0006	3.097
+vina_out_naph	pose_0008	3.87
+vina_out_naph	pose_0009	3.16
