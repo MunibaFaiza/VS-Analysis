@@ -14,7 +14,7 @@ This package allows you to:
 * list the names of amino acid residues that are present near the ligand within a specified distance (default distance is 3.2 Angstroms).
 * identify whether a ligand is binding within a binding pocket or around a reference ligand in the protein or somewhere else. 
 
-For more information, read [here](https://github.com/MunibaFaiza/VS-Analysis/wiki).
+For more information, go to the [Wiki page](https://github.com/MunibaFaiza/VS-Analysis/wiki).
 
 ### Usage:
 
