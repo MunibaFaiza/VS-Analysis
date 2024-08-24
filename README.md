@@ -48,3 +48,5 @@ This script screens for the log files containing the word 'log' in their filenam
 It is recommended to name your log files along with the name of a compound. That would make the results more presentable and easy to understand.***
 
 
+***How to Cite:***
+Faiza, M., (2024). VS_Analysis: A Python package to perform post-virtual screening analysis, 10(1): page 8-12. https://bioinformaticsreview.com/20240110/vs_analysis-a-python-package-to-perform-post-virtual-screening-analysis
