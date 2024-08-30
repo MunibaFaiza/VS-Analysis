@@ -74,7 +74,7 @@ def cite_info():
     # 1. Faiza M., (2024). How to fix broken Vina Docked output  #
     # in DS Visualizer: A step-bystep guide 10(8):               #
     # page 12-16. The article is available at                    #
-    # https://bioinformaticsreview.com/20240830/how-to-fix-      #
+    # https://bioinformaticsreview.com/20240831/how-to-fix-      #
     # broken-vina-docked-output-in-ds-visualizer-a-step-by-      #
     # step-guide/                                                #
     #                                                            #
