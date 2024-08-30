@@ -13,6 +13,7 @@ This package allows you to:
 * calculate the distances of these hydrogen bonds, and
 * list the names of amino acid residues that are present near the ligand within a specified distance (default distance is 3.2 Angstroms).
 * identify whether a ligand is binding within a binding pocket or around a reference ligand in the protein or somewhere else. 
+* split vina poses into individual pdb files to be later visualized in other software such as DS Visualizer.
 
 For more information, go to the [Wiki page](https://github.com/MunibaFaiza/VS-Analysis/wiki).
 
