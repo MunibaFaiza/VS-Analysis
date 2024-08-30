@@ -76,7 +76,7 @@ def cite_info():
     # page 12-16. The article is available at                    #
     # https://bioinformaticsreview.com/20240830/how-to-fix-      #
     # broken-vina-docked-output-in-ds-visualizer-a-step-by-      #
-    # step-guide/                                             #
+    # step-guide/                                                #
     #                                                            #
     # 2. Faiza, M., (2024). VS_Analysis: A Python package to     #
     # perform post-virtual screening analysis, 10(1): page 8-12. #
