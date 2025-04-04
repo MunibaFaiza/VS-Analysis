@@ -40,10 +40,10 @@ def display_info():
 		#                                                            #
 		##############################################################
 		#                                                            #
-		# This script allows users to search for specific binding    #
-		# affinities corresponding to compound names. Users must     #
-		# provide a compound name as an argument given that the      #
-		# same compound name is present in the log filenames.        #
+		# This script allows users to calculate the number of        #
+		# hydrogen bonds and their distances for each pose. This     #
+		# script also provides names of the amino acid residues      #
+		# close to the docked ligand.                                #
 		#                                                            #
 		##############################################################
 
@@ -103,7 +103,7 @@ receptor_path= os.path.join(mypath+"/"+receptor)
 
 outfile = open("num-hbonds.txt", "a")
 
-# Function to calculate the number of H-bonds and their distances of each pose
+# Function to calculate the number of H-bonds and their distances for each pose
 def calculate_hbonds(poses_names, vina_docking_file):
 
     print(f"\n\nProcessing Vina file name: {vina_docking_file}\n")
@@ -131,7 +131,7 @@ def calculate_hbonds(poses_names, vina_docking_file):
             
 
             # Compute possibly suboptimal polar interactions using the bigcutoff = 4.0 and radius = 3.5
-            # These are the default values. Adust them according to your requirements.
+            # These are the default values. Adjust them according to your requirements.
 
             pol_res = bonds+"_polar"                    
         
